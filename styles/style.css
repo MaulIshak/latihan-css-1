@@ -52,6 +52,7 @@ table {
 body{
   font: 14px/1.5 poppins, sans-serif;
   background-color: #ddd;
+  background-image: url(../img/bg.png);
 }
 
 .container{
@@ -63,13 +64,11 @@ header{
   padding: 20px;
 }
 
-header .title{
+header h1.title{
   font-size: 3em;
   font-weight: bold;
 }
-nav{
-  
-}
+
 nav li{
   display: inline-block;
   font-size: 18px;
@@ -97,4 +96,41 @@ nav li a:hover{
   background-position: 0 -20em;
   border-top :#1F509A 5px solid;
   border-bottom: #E38E49 5px solid;
+}
+
+main{
+  padding: 20px;
+}
+
+main article h2{
+  font-size: 2em;
+  font-weight: bold;;
+}
+
+main article .author{
+  font-size: 1em;
+  font-style: italic;
+}
+
+main article .author a{
+  color: #E38E49;
+}
+
+main article .article-heading{
+  margin-bottom: 10px;
+}
+
+main article .article-content p{
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+footer{
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
 }
