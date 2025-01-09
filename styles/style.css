@@ -55,27 +55,46 @@ body{
 }
 
 .container{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
-  padding: 10px;
   background-color: #fff;
 }
 header{
-  padding: 10px;
+  padding: 20px;
 }
 
 header .title{
   font-size: 3em;
   font-weight: bold;
 }
-
+nav{
+  
+}
 nav li{
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 10px;
 }
 
 nav li a{
+  display: inline-block;
   text-decoration: none;
   color: #1F509A;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+nav li a:hover{
+  background-color: #1F509A;
+  color: #fff;
+}
+
+.hero{
+  margin-top: -10px;
+  height: 25em;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -20em;
+  border-top :#1F509A 5px solid;
+  border-bottom: #E38E49 5px solid;
 }
