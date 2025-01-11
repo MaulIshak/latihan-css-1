@@ -56,7 +56,7 @@ body{
 }
 
 .container{
-  width: 50%;
+  width: 900px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -93,9 +93,10 @@ nav li a:hover{
   height: 25em;
   background-image: url(../img/hero.jpg);
   background-size: cover;
-  background-position: 0 -20em;
+  background-position: center;
   border-top :#1F509A 5px solid;
   border-bottom: #E38E49 5px solid;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -133,4 +134,11 @@ footer{
   color: #fff;
   text-align: center;
   padding: 15px;
+}
+
+@media screen and (max-width: 900px){
+
+  .container{
+    width: 100%;
+  }
 }
